@@ -152,6 +152,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114983986721019132, guid: 0290e53478b214b4fa66a3e8bf1c80d9,
+        type: 2}
+      propertyPath: Bad.m_Bits
+      value: 512
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0290e53478b214b4fa66a3e8bf1c80d9, type: 2}
   m_IsPrefabAsset: 0
@@ -286,7 +291,7 @@ GameObject:
   - component: {fileID: 1505068838}
   - component: {fileID: 1505068837}
   - component: {fileID: 1505068841}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sawblade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -306,8 +311,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SawbladeSpeed: 2
   Moving: 1
-  Pos1: {x: 0, y: 0}
-  Pos2: {x: 5, y: 0}
+  Pos1: {x: -5, y: 3}
+  Pos2: {x: 5, y: -3}
   MoveSpeed: 1
 --- !u!114 &1505068838
 MonoBehaviour:
@@ -373,7 +378,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1505068836}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 2.912, y: -1.917, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -393,4 +398,4 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.02
+  m_Radius: 1.04
